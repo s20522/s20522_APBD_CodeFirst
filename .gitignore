@@ -1,13 +1,22 @@
+<<<<<<< HEAD
 # Dotnet build output
 bin/
 obj/
 
 # User-specific files
+=======
+## Ignore build outputs
+bin/
+obj/
+
+## Ignore user-specific files
+>>>>>>> ab8eefc4cb71ebdd9336f94dd10157e9c78075d0
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 
+<<<<<<< HEAD
 # Visual Studio Code settings
 .vscode/
 
@@ -55,3 +64,48 @@ Desktop.ini
 # JetBrains Rider specific
 .idea/
 *.sln.iml
+=======
+## Ignore Visual Studio cache and temporary files
+.vs/
+
+## Ignore NuGet packages folder
+packages/
+
+## Ignore Rider IDE files
+.idea/
+
+## Ignore logs
+*.log
+
+## Ignore publish output
+publish/
+
+## Ignore configuration files that may contain secrets
+appsettings.Development.json
+
+## Ignore Resharper files
+_ReSharper*/
+
+## Ignore DotCover files
+*.dotCover
+
+## Ignore test result files
+TestResults/
+
+## Ignore local database files
+*.mdf
+*.ldf
+
+## Ignore Rider files
+.idea/
+
+## Ignore JetBrains Rider
+.idea/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore generated files by EF migrations (optional)
+Migrations/
+
+>>>>>>> ab8eefc4cb71ebdd9336f94dd10157e9c78075d0
